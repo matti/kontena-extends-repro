@@ -1,0 +1,8 @@
+version: '2'
+name: gontena
+
+services:
+  something:
+    extends:
+      file: docker-compose.yml
+      service: something
